@@ -1,0 +1,103 @@
+@charset "utf-8";
+<html lang="en">
+
+/* finalExam.css
+   Author: DeWayne Murray
+   Date:   06/08/2025  
+*/
+   
+/* Body */
+body {
+  font-family: Verdana, Tahoma, Helvetica, sans-serif;
+  color: #000;
+  font-size: 16pt;
+  width: 85%;
+  margin: 0 auto;
+  background-color: #222; /* dark background */
+}
+
+/* Layout containers */
+header,
+nav,
+section,
+footer {
+  padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #444;
+}
+
+/* Header elements */
+header h1 {
+  font-size: 36pt;
+  margin: 35px 0 0 0;
+  padding: 15px 0 0 15px; /* top & left = 15px, right & bottom = 0 */
+  background-color: #444; /* same as nav */
+}
+
+header h3 {
+  font-size: 24pt;
+  margin: 0;
+  padding: 0 0 15px 15px; /* bottom & left = 15px, top & right = 0 */
+  background-color: #444; /* same as nav */
+}
+
+/* Section headings */
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 22pt;
+  text-align: left;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 15px 0 0 15px;
+  color: #222; /* dark color to contrast white section */
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 16pt;
+  text-align: left;
+  color: #555; /* contrasting, but different from h1 */
+}
+
+/* Paragraphs */
+p {
+  margin: 15px;
+  padding: 15px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  color: #004499;
+}
+
+/* Tables */
+table {
+  border: none;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 30px;
+}
+
+table th,
+table td {
+  padding: 2px 5px; /* top/bottom 2px, left/right 5px */
+}
+
+/* Section styling */
+section {
+  background-color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #444;
+  color: #fff;
+}
