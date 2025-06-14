@@ -30,6 +30,17 @@ nav {
 }
 
 /* Header elements */
+header img {
+    float: right;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    margin: 0 0 0 20px; /* top right bottom left — pushes image slightly left */
+    vertical-align: top;
+    position: relative;
+    top: -10px; /* move image up by 10px */
+  }
+
 header h1 {
   font-size: 36pt;
   margin: 35px 0 0 0;
