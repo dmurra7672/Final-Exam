@@ -38,7 +38,7 @@ header img {
     margin: 0 0 0 20px; /* top right bottom left — pushes image slightly left */
     vertical-align: top;
     position: relative;
-    top: -10px; /* move image up by 10px */
+    top: -30px; /* move image up by 30px */
   }
 
 header h1 {
