@@ -9,11 +9,11 @@
 /* Body */
 body {
   font-family: Verdana, Tahoma, Helvetica, sans-serif;
-  color:#222;
+  color: #444;
   font-size: 16pt;
   width: 85%;
   margin: 0 auto;
-  background-color: hwb(44 1% 2% / 0.955); /* dark background */
+  background-color: #444; /* dark background */
 }
 
 /* Layout containers */
@@ -87,11 +87,11 @@ p {
 /* Links */
 a {
   text-decoration: none;
-  color: hsla(288, 100%, 40%, 0.895);
+  color: hwb(44 1% 2% / 0.955)
 }
 
 a:hover {
-  color:  hsla(288, 100%, 40%, 0.895); /* same color on hover */
+  color:  hwb(40 93% 4% / 0.955) /* same color on hover */
 }
 
 /* Tables */
@@ -109,7 +109,7 @@ table td {
 
 /* Section styling */
 section {
-  background-color: #b68603;
+  background-color: #000606f6; 
 }
 
 
@@ -117,7 +117,7 @@ section {
 section {
     width: 75%;
     padding: 15px;
-    background-color: #1e1f1f04; /* light background */
+    background-color: #000606f6; /* dark background */
     float: right;
   }
   
