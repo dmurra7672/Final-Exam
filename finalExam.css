@@ -38,7 +38,7 @@ header img {
     margin: 0 0 0 20px; /* top right bottom left — pushes image slightly left */
     vertical-align: top;
     position: relative;
-    top: 20px; /* move image down by 20px */
+    top: 40px; /* move image down by 40px */
   }
 
 header h1 {
@@ -52,7 +52,7 @@ header h3 {
   font-size: 24pt;
   margin: 0;
   padding: 0 0 15px 15px; /* bottom & left = 15px, top & right = 0 */
-  background-color: hsla(288, 100%, 40%, 0.895); /* same as nav */
+  background-color: hsla(289, 95%, 8%, 0.895); /* same as nav */
 }
 
 /* Section headings */
@@ -107,9 +107,37 @@ section {
   background-color: #fff;
 }
 
+
+
+section {
+    width: 75%;
+    padding: 15px;
+    background-color: #e8f4f8; /* light background */
+    float: right;
+  }
+  
+  section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  section td {
+    padding: 10px;
+    vertical-align: top;
+    color: #222;
+  }
+  
+  .week-title {
+    background-color: #c2d6e0;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
 /* Footer */
 footer {
-  background-color: #444;
+  background-color: hsla(288, 100%, 40%, 0.895)
   color: #fff;
 }
 
@@ -147,7 +175,7 @@ nav {
   }
 
   section {
-    background-color: #fff;
+    background-color:  hsla(288, 100%, 40%, 0.895);
     float: right;
     width: 75%;
     min-height: 600px; /* or update as needed to match nav height */
