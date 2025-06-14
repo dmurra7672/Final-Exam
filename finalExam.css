@@ -26,7 +26,7 @@ footer {
 
 /* Navigation bar */
 nav {
-  background-color: #444;
+  background-color: hsla(288, 100%, 40%, 0.895);
 }
 
 /* Header elements */
@@ -38,21 +38,21 @@ header img {
     margin: 0 0 0 20px; /* top right bottom left — pushes image slightly left */
     vertical-align: top;
     position: relative;
-    top: -30px; /* move image up by 30px */
+    top: 20px; /* move image down by 20px */
   }
 
 header h1 {
   font-size: 36pt;
   margin: 35px 0 0 0;
   padding: 15px 0 0 15px; /* top & left = 15px, right & bottom = 0 */
-  background-color: #444; /* same as nav */
+  background-color: hsla(288, 100%, 40%, 0.895); /* same as nav */
 }
 
 header h3 {
   font-size: 24pt;
   margin: 0;
   padding: 0 0 15px 15px; /* bottom & left = 15px, top & right = 0 */
-  background-color: #444; /* same as nav */
+  background-color: hsla(288, 100%, 40%, 0.895); /* same as nav */
 }
 
 /* Section headings */
@@ -82,11 +82,11 @@ p {
 /* Links */
 a {
   text-decoration: none;
-  color: #0066cc;
+  color: hsla(288, 100%, 40%, 0.895);
 }
 
 a:hover {
-  color: #004499;
+  color:  hsla(288, 100%, 40%, 0.895); /* same color on hover */
 }
 
 /* Tables */
