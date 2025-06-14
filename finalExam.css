@@ -9,7 +9,7 @@
 /* Body */
 body {
   font-family: Verdana, Tahoma, Helvetica, sans-serif;
-  color: #000;
+  color:#222;
   font-size: 16pt;
   width: 85%;
   margin: 0 auto;
@@ -38,7 +38,7 @@ header img {
     margin: 0 0 0 20px; /* top right bottom left — pushes image slightly left */
     vertical-align: top;
     position: relative;
-    top: 40px; /* move image down by 40px */
+    top: -10px; /* move image up by -10px */
   }
 
 header h1 {
@@ -52,7 +52,7 @@ header h3 {
   font-size: 24pt;
   margin: 0;
   padding: 0 0 15px 15px; /* bottom & left = 15px, top & right = 0 */
-  background-color: hsla(289, 95%, 8%, 0.895); /* same as nav */
+  background-color: hsla(288, 100%, 40%, 0.895) /* same as nav */
 }
 
 /* Section headings */
@@ -70,7 +70,7 @@ h3 {
   font-family: Arial, sans-serif;
   font-size: 16pt;
   text-align: left;
-  color: #555; /* contrasting, but different from h1 */
+  color: hsla(289, 95%, 8%, 0.895); /* contrasting, but different from h1 */
 }
 
 /* Paragraphs */
@@ -104,7 +104,7 @@ table td {
 
 /* Section styling */
 section {
-  background-color: #fff;
+  background-color: #b68603;
 }
 
 
@@ -143,7 +143,7 @@ footer {
 
 /* Nav Styling */
 nav {
-    background-color: #ccc;      /* Light background (not white) */
+    background-color: hsla(288, 100%, 40%, 0.895)    /* Light background (not white) */
     color: #111;                 /* Dark font */
     text-align: center;          /* Horizontally center text */
     width: 25%;                  /* Set width */
@@ -189,3 +189,6 @@ nav {
     text-align: center;
     padding: 20px;
   }
+
+
+
