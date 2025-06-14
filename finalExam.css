@@ -13,15 +13,19 @@ body {
   font-size: 16pt;
   width: 85%;
   margin: 0 auto;
-  background-color: #444; /* dark background */
+  background-color: #000000;  /* dark background */
 }
 
 /* Layout containers */
 header,
 nav,
 section,
-footer {
-  padding: 20px;
+footer   
+{
+    border: 1px solid #444;
+    margin: 10px;
+    background-color: #1a1a1a; 
+    padding: 20px;
 }
 
 /* Navigation bar */
@@ -38,7 +42,7 @@ header img {
     margin: 0 0 0 20px; /* top right bottom left — pushes image slightly left */
     vertical-align: top;
     position: relative;
-    top: 00px; /* move image up by 00px */
+    top: -20px; /* move image down by 20px */
   }
 
 header h1 {
@@ -82,7 +86,12 @@ h3 {
 p {
   margin: 15px;
   padding: 15px;
+  color:  hwb(40 93% 4% / 0.955)
 }
+p2 {
+    margin: 15px;
+    padding: 15px;
+    color: hwb(44 1% 2% / 0.955)  }
 
 /* Links */
 a {
@@ -102,9 +111,17 @@ table {
   margin-left: 30px;
 }
 
-table th,
+table th{
+  padding: 2px -40px; /* top/bottom 2px, left/right 5px */
+  table th {
+    background-color: hwb(44 1% 2% / 0.955); /* light background for header */
+    color: #111; /* dark text color for contrast */
+  }
+}
 table td {
-  padding: 2px 5px; /* top/bottom 2px, left/right 5px */
+  padding: 10px;
+  border: 1px solid #444; /* dark border */
+  color: hwb(44 1% 2% / 0.955); /* light text color */
 }
 
 /* Section styling */
@@ -130,7 +147,7 @@ section {
   section td {
     padding: 10px;
     vertical-align: top;
-    color: #222;
+    color: #000606f6
   }
   
   .week-title {
@@ -163,10 +180,12 @@ nav {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    
   }
   
   nav li {
     margin: 10px 0;
+    color: hsla(288, 100%, 40%, 0.895)
   }
   
   nav a {
@@ -180,7 +199,7 @@ nav {
   }
 
   section {
-    background-color:  hsla(288, 100%, 40%, 0.895);
+    background-color: hsla(288, 100%, 40%, 0.895);
     float: right;
     width: 75%;
     min-height: 600px; /* or update as needed to match nav height */
@@ -190,7 +209,7 @@ nav {
   footer {
     clear: both;
     background-color: #444;
-    color: hsla(288, 100%, 40%, 0.895);
+    color: hsla(290, 100%, 1%, 0.895);
     text-align: center;
     padding: 20px;
   }
